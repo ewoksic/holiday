@@ -1,0 +1,47 @@
+.section-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: -50px;
+    &__card{
+        width: 350px;
+      
+        background-color: #fff;
+
+    }
+&__form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    
+  }
+  select{
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px #dddddd solid;
+  }
+  &__btn{
+      background: $btnBG;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 88px;
+
+  }
+  &__title{
+      float: left;
+      padding: 25px;
+      background-color: #fff;
+      width: 50%;
+      text-align: center;
+      
+      
+    }
+    &__subtitle{
+        text-align: center;
+        
+        padding: 25px;
+      background-color: $mainColor;
+  }
+}

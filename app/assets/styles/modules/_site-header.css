@@ -1,0 +1,47 @@
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 90px;
+    background-color: #000;
+    margin: 0 auto;
+    height: 80px;
+
+    &__nav{
+        width: 100%;
+    }
+    &__links{
+        height:100%;
+        display: flex;      
+        align-items: center;     
+        justify-content: flex-end;
+        text-transform: uppercase;
+        list-style: none;      
+    }
+    &__link{
+        display: flex;
+        padding:0 20px;
+        align-items: center;
+        height: 100%;
+        transition:background-color .4s linear;
+    }
+    &__link:hover{
+        background-color: $mainColor;
+    }
+    &__logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title{
+        color: $mainColor;
+        transition: color .6s ease-out;
+    }
+    &__title:hover{
+     color: orange;
+    }
+
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+}

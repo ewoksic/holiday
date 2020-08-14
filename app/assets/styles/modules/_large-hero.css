@@ -1,0 +1,19 @@
+.large-hero{  
+    background-image: url('../../../assets/images/Desert.jpg');
+    background-position: center;
+    background-size: cover;
+    /*backdrop-filter: blur(10px);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    &__title span{
+        color:$mainColor;
+    }
+    
+    
+
+}
